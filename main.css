@@ -3650,10 +3650,27 @@ img.road_img {
 .up_img {
   width: 60%;
 }
+.div-block-18 {
+  position: absolute;
+  top: 5%;
+  bottom: auto;
+  left: auto;
+  right: 5%;
+}
 
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+  color: #fff;
+  font-size: 28px;
+  margin-right: 14px;
+}
 @media screen and (max-width: 768px) {
   .up_img {
     width: 97%;
+  }
+  .div-block-18 {
+    right: 33%;
   }
 }
 
