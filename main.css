@@ -3659,17 +3659,21 @@ img.road_img {
 
 @media screen and (max-width: 767px) {
   .hero {
-    height: 100vh;
+    height: 90vh;
   }
   .paragraph {
     margin-right: 0;
     margin-left: 0;
     padding-right: 0;
   }
+
+  .road_card {
+    height: 480px;
+  }
 }
 
 @media screen and (max-width: 467px) {
   .hero {
-    height: 100vh;
+    height: 90vh;
   }
 }
